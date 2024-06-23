@@ -40,13 +40,16 @@ Compile all three contracts and switch to avalance subnet network in metamask.<b
 Players can start gold mining, trade gems, battle, and redeem cards within the Clash of Village game environment.<br>
 Usage<br>
 Mining Gold:<br>
-Players can start gold mining using ```startGoldMining()``` and claim mined gold with ```claimGold()```. start Mining is 1st and compulsory to get golds<br>
+Players can start gold mining using ```startGoldMining()``` and claim mined gold with ```claimGold()```. start Mining is 1st and compulsory to get golds.<br>
+
 Trading Gems:<br>
-Use ```tradeGems(uint _noOfCoins)``` to trade GEMS tokens for GOLD tokens .<br>
+Use ```tradeGems(uint _noOfCoins)``` to trade GEMS tokens for GOLD tokens.<br>
 Battle and Rewards:<br>
 Engage in battles using ```battle()``` to earn rewards in 100 GOLD tokens and battle fee is 20 GOLD token.<br>
+
 Redeem Cards:<br>
 Redeem cards of varying rarities (rare, super rare, epic, mythic, legendary) ```using redeemCards(Cards _card)``` and gems will be used to redeem these.<br>
+
 Transfer Tokens:<br>
 Transfer tokens between players using ```transferGems(address to, uint amount)```. Before using this user first need to approve the contract for transfer. copy the contract address in gems approve function and enter desired value<br>
 Authors<br>
