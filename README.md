@@ -33,8 +33,8 @@ Compile and deployment of contracts:<br>
 2) create new folder ```clash of village```.
 3) copy and paste ```GEMS.sol, GOLD.sol, Vault.sol``` into it.<br>
 Compile all three contracts and switch to avalance subnet network in metamask.<br>
-4) Deploy GEMS and GOLD contracts individually then using its address deploy vault contract. deploy all 3 using the same wallet account.
-5)copy the address of vault and paste in approve function of GOLD and GEMS and approve desired amount.
+4) Select Injected metamask and deploy GEMS and GOLD contracts individually then using its address deploy vault contract. deploy all 3 using the same wallet account.
+5) copy the address of vault and paste in approve function of GOLD and GEMS and approve desired amount.
 
 ## Interaction
 Players can start gold mining, trade gems, battle, and redeem cards within the Clash of Village game environment.<br>
