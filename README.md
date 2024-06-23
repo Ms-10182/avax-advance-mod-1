@@ -25,9 +25,9 @@ NOTE- function burn(uint amount,address _of)external; add this function in IERC2
 This smart contract is deployed on avalanche subnet.
 
 ## Getting Started
-Prerequisites<br>
+Prerequisites:<br>
 Avalanche subnet deployed and wallet imported in metamask.<br>
-Deployment<br>
+Deployment:<br>
 Compile and deployment of contracts:<br>
 1) open remix IDE.
 2) create new folder ```clash of village```.
