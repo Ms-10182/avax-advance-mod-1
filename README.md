@@ -55,5 +55,4 @@ Transfer Tokens:<br>
 
 Transfer tokens between players using ```transferGems(address to, uint amount)```. Before using this user first need to approve the contract for transfer. copy the contract address in gems approve function and enter desired value<br>
 Authors<br>
-Mayank Sharma  
-[@Mayank](https://www.linkedin.com/in/mayank-sharma-078278243/)
+[@Mayank Sharma](https://www.linkedin.com/in/mayank-sharma-078278243/)
