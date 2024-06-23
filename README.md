@@ -47,7 +47,7 @@ Mining Gold:<br>
 Players can start gold mining using ```startGoldMining()``` and claim mined gold with ```claimGold()```. start Mining is 1st and compulsory to get golds.<br>
 
 Trading Gems:<br>
-Use ```tradeGems(uint _noOfCoins)``` to trade GEMS tokens for GOLD tokens.<br>
+Use ```tradeGems(uint _noOfCoins)``` to trade GEMS tokens for GOLD tokens and collect the gems using ```withdrawGems()```.<br>
 
 Battle and Rewards:<br>
 Engage in battles using ```battle()``` to earn rewards in 100 GOLD tokens and battle fee is 20 GOLD token.<br>
