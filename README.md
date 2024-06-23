@@ -1,12 +1,12 @@
-Clash of Village Tokens
-This Solidity project implements ERC20 tokens for "GEMS" and "GOLD" in the Clash of Village game. Players can mine gold, trade gems, battle, and redeem cards using these tokens.
+# Clash of Village Tokens
+This Solidity project implements ERC20 tokens for "GEMS" and "GOLD" in the Clash of Village game. Players can mine gold, trade gems, transfer gems, battle, and redeem cards using these tokens.
 
-Contracts Overview
-Contract 1: GEMS
-Description: ERC20 token contract for GEMS.
+## Contracts Overview
+Contract 1: GEMS<br>
+Description: ERC20 token contract for GEMS.<br>
 Functions:
-constructor(): Initializes the token with name "GEM" and symbol "GM", mints 1 billion tokens to the deployer.
-burn(uint amount, address _of): Allows burning tokens from _of address.
+constructor(): Initializes the token with name "GEM" and symbol "GM", mints 1 billion tokens to the deployer.<br>
+burn(uint amount, address _of): Allows burning tokens from _of address. This ```burn()``` will be needed to defined in IERC20 interface in vault.sol.<br>
 Contract 2: GOLD
 Description: ERC20 token contract for GOLD.
 Functions:
