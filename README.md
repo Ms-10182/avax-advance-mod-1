@@ -32,12 +32,13 @@ Prerequisites:<br>
 Avalanche subnet deployed and wallet imported in metamask.<br>
 Deployment:<br>
 Compile and deployment of contracts:<br>
-1) open remix IDE.
-2) create new folder ```clash of village```.
-3) copy and paste ```GEMS.sol, GOLD.sol, Vault.sol``` into it.<br>
+1) Deploy your avalanche subnet.
+2) open remix IDE.
+3) create new folder ```clash of village```.
+4) copy and paste ```GEMS.sol, GOLD.sol, Vault.sol``` into it.<br>
 Compile all three contracts and switch to avalance subnet network in metamask.<br>
-4) Select Injected metamask and deploy GEMS and GOLD contracts individually then using its address deploy vault contract. deploy all 3 using the same wallet account.
-5) copy the address of vault and paste in approve function of GOLD and GEMS and approve desired amount.
+5) Select Injected metamask and deploy GEMS and GOLD contracts individually then using its address deploy vault contract. deploy all 3 using the same wallet account.
+6) copy the address of vault and paste in approve function of GOLD and GEMS and approve desired amount.
 
 ## Interaction
 Players can start gold mining, trade gems, battle, and redeem cards within the Clash of Village game environment.<br>
