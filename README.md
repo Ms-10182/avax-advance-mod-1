@@ -21,7 +21,10 @@ Features:<br>
 Gold mining, token balances, and gameplay logic.<br>
 Token transfers, gem trading, gems transfer, and card redemption using GEMS tokens.<br>
 Interaction with ERC20 tokens via IERC20 interface from OpenZeppelin.<br><br>
-NOTE- function burn(uint amount,address _of)external; add this function in IERC20.sol by ```ctrl +click``` on IERC20.sol in imported openzipline file.<br><br>
+NOTE- add this function in IERC20.sol by ```ctrl +click``` on IERC20.sol in imported openzipline file.
+```javascript
+function burn(uint amount,address _of)external;
+```
 This smart contract is deployed on avalanche subnet.
 
 ## Getting Started
