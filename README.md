@@ -38,7 +38,7 @@ Compile all three contracts and switch to avalance subnet network in metamask.<b
 
 ## Interaction
 Players can start gold mining, trade gems, battle, and redeem cards within the Clash of Village game environment.<br>
-Usage<br>
+<b>Usage:</b><br>
 Mining Gold:<br>
 Players can start gold mining using ```startGoldMining()``` and claim mined gold with ```claimGold()```. start Mining is 1st and compulsory to get golds.<br>
 
