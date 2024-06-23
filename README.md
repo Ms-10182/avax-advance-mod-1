@@ -21,6 +21,7 @@ Features:<br>
 Gold mining, token balances, and gameplay logic.<br>
 Token transfers, gem trading, gems transfer, and card redemption using GEMS tokens.<br>
 Interaction with ERC20 tokens via IERC20 interface from OpenZeppelin.<br><br>
+NOTE- function burn(uint amount,address _of)external; add this function in IERC20.sol by ```ctrl +click on IERC20.sol in imported openzipline file.
 ## Getting Started
 Prerequisites<br>
 Ensure you have access to an Ethereum-compatible development environment like Remix IDE.<br>
